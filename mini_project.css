@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
     font-family: Georgia, serif;
-    color: #777;
+    color: gray;
 }
 
 html, body {
@@ -35,7 +35,7 @@ html, body {
     padding: 0 5%;
 }
 .main-header {
-    background-color: rgba(31, 185, 31, .6);
+    background-color: green;
     background-size: cover;
     padding-bottom: 5px;
 }
@@ -68,7 +68,7 @@ html, body {
     border-radius: 4px;
     padding: 5px 5px;
     cursor: pointer;
-    background-color: rgba(31, 185, 31, .6);
+    background-color: green;
     
 }
 
@@ -76,7 +76,7 @@ html, body {
     margin: 8px;
     border: 1px solid white;
     color: white;
-    background-color: rgba(31, 185, 31, .6);
+    background-color: green;
     text-align: center;
 }
 
@@ -98,7 +98,7 @@ html, body {
 }
 
 .purchase-suppplier {
-    width: 1000px;
+    width: 50px;
     padding-right: 45px;
 }
 
@@ -131,7 +131,7 @@ html, body {
     font-size: 17px;
     font-weight: lighter;
     border-bottom: 1px solid rgba(255, 255, 255, .3);
-    background-color: rgba(31, 185, 31, .6);
+    background-color: green;
 }
 
 .footer-nav li {
