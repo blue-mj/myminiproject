@@ -9,12 +9,16 @@ html, body {
     padding: 0;
 }
 
+div {
+    position: relative;
+}
+
 .nav ul {
     margin: 0;
 }
 
 .nav li {
-    display: inline;
+    display: inline-block;
 }
 
 .nav a {
@@ -61,7 +65,7 @@ html, body {
     font-size: 20px;    
 }
 
-.btn {
+.btn {    
     text-align: center;
     vertical-align: middle;
     padding: 6px;
@@ -89,12 +93,13 @@ html, body {
 .purchase-item {
     display: inline-block;
     padding-right: 10px; 
+    width: 200px;
 }
 
 .purchase-date {
     padding-right: 10px;
     font-weight: bold ;
-    width: 100px
+    width: 200px
 }
 
 .purchase-suppplier {
@@ -117,7 +122,7 @@ html, body {
 .purchase-btn {
     position: absolute;
     right: 5px;
-    width: 45px; 
+    width: 55px; 
 }
 .main-footer {
     text-align: center;
